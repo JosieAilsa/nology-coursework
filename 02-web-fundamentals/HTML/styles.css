@@ -26,4 +26,30 @@ header h1{
     width: 300px;
     height: auto;
     border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: midnightblue;
+    box-shadow: 5px 5px 5px 5px lightgray;
+}
+
+.card img{
+    margin: 10px;
+    min-height: 300px;
+    border-radius: 30px;
+}
+
+h2,h3,h4,h5,h6{
+   text-decoration: underline;
+   font-size: 30px;
+}
+
+#penelope-list {
+    list-style-type: none;
+}
+
+span {
+    font-size: 1.5em;
+    color: #b48ce0;
 }
