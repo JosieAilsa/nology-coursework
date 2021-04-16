@@ -1,0 +1,51 @@
+*{
+    background-color: white;
+}
+.french-flag{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.french-block-1 {
+    height: 400px;
+    width: 200px;
+    background-color: blue;
+    position: absolute;
+}
+.french-block-2 {
+    height: 400px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    right: 200px;
+}
+.french-block-3{
+    height: 400px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    right: 0px;
+}
+
+.german-flag{
+    height: 133px;
+    width: 600px;
+    background-color: white;
+}
+
+.german-block-1 {
+    height: 133px;
+    width: 600px;
+    background-color: black;
+}
+.german-block-2 {
+    height: 133px;
+    width: 600px;
+    background-color: gold;
+}
+.german-block-3{
+    height: 133px;
+    width: 600px;
+    background-color: red;
