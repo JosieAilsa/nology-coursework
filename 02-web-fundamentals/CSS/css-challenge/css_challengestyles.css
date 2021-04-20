@@ -4,7 +4,6 @@
 .french-flag{
     height: 400px;
     width: 600px;
-    background-color: rgb(0, 0, 0);
     position: relative;
 }
 
@@ -14,6 +13,13 @@
     background-color: blue;
     position: absolute;
 }
+.french-block-1:active {
+    height: 400px;
+    width: 200px;
+    background-color:green;
+    position: absolute;
+}
+
 .french-block-2 {
     height: 400px;
     width: 200px;
@@ -28,6 +34,12 @@
     position: absolute;
     right: 0px;
 }
+.french-block-3:active {
+    height: 400px;
+    width: 200px;
+    background-color:orange;
+    position: absolute;
+}
 
 .german-flag{
     height: 133px;
@@ -40,12 +52,29 @@
     width: 600px;
     background-color: black;
 }
+.german-block-1:hover {
+    height: 133px;
+    width: 600px;
+    background-color: red;
+}
+
 .german-block-2 {
     height: 133px;
     width: 600px;
     background-color: gold;
 }
+.german-block-2:hover{
+    height: 133px;
+    width: 600px;
+    background-color: white;
+}
+
 .german-block-3{
     height: 133px;
     width: 600px;
     background-color: red;
+}
+.german-block-3:hover{
+    height: 133px;
+    width: 600px;
+    background-color: green;
