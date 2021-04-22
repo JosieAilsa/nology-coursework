@@ -6,17 +6,18 @@
     width: 600px;
     position: relative;
 }
+.french-flag:active .french-block-1{
+    background-color: green;
+}
+
+.french-flag:active .french-block-3{
+    background-color: orange;
+}
 
 .french-block-1 {
     height: 400px;
     width: 200px;
     background-color: blue;
-    position: absolute;
-}
-.french-block-1:active {
-    height: 400px;
-    width: 200px;
-    background-color:green;
     position: absolute;
 }
 
@@ -34,12 +35,6 @@
     position: absolute;
     right: 0px;
 }
-.french-block-3:active {
-    height: 400px;
-    width: 200px;
-    background-color:orange;
-    position: absolute;
-}
 
 .german-flag{
     height: 133px;
@@ -52,21 +47,11 @@
     width: 600px;
     background-color: black;
 }
-.german-block-1:hover {
-    height: 133px;
-    width: 600px;
-    background-color: red;
-}
 
 .german-block-2 {
     height: 133px;
     width: 600px;
     background-color: gold;
-}
-.german-block-2:hover{
-    height: 133px;
-    width: 600px;
-    background-color: white;
 }
 
 .german-block-3{
@@ -74,7 +59,12 @@
     width: 600px;
     background-color: red;
 }
-.german-block-3:hover{
-    height: 133px;
-    width: 600px;
+.german-flag:hover .german-block-1{
+    background-color: red;
+}
+.german-flag:hover .german-block-2{
+    background-color: white;
+}
+.german-flag:hover .german-block-3{
     background-color: green;
+}
