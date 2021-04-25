@@ -11,6 +11,7 @@ nav{
     position: relative;
     flex-direction: row;
     align-items: center;
+    flex-shrink: inherit;
 }
 .main-logo{
     background-color: green;
@@ -49,7 +50,9 @@ main{
     position: relative;
     width: 1500px;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
+
 }
 
 .panel-1, .panel-2, .panel-3 {
