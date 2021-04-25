@@ -46,13 +46,11 @@ nav{
     left: 80%; 
 }
 
-main{
-    position: relative;
+main {
     width: 1500px;
-    display:flex;
+    position: relative;
+    display: flex;
     flex-direction: row;
-    align-items: flex-start;
-
 }
 
 .panel-1, .panel-2, .panel-3 {
@@ -66,7 +64,10 @@ main{
     color: black;
     background-color: transparent;
     border: 3px solid black;
-    margin: 50px;
+    width: 400px;
+    margin: 10px;
+    height: 95%;
+    text-align: left;
     position: absolute;
-    left: 70%;
+    right: 10px;
 }
