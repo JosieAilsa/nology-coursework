@@ -29,6 +29,14 @@ nav {
     justify-content: space-evenly;
     justify-items: flex-end;
 }
+h2:hover{
+    background-color: white;
+    color: black;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
 
 main{
     width:100%;
