@@ -83,7 +83,8 @@ main{
     width: 80%;
     border: 2px solid black;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
     align-items: center;
     padding: 10px;
     margin-left: 2%;
