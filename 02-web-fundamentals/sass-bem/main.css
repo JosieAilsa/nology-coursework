@@ -130,8 +130,9 @@ a:link, a:visited {
 }
 .footer__copyright {
   color: #fafafa;
-  display: flex;
+  width: 160px;
   align-content: flex-start;
+  border: red 2px;
 }
 .footer__date {
   color: #fafafa;

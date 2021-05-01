@@ -118,8 +118,10 @@
 
     &__copyright{
         color: $color-white;
-        display: flex;
+        width: 160px;
         align-content: flex-start;
+        border: red 2px;
+        
     }
     &__date{
         color: $color-white;
