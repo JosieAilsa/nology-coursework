@@ -1,0 +1,127 @@
+
+
+.navigation{
+    height: 10vh;
+    background-color: $color-primary;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: $font-display;
+    font-size: 20px;
+    color: $color-white;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    background-color: $color-secondary;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: $color-white;
+    border: none;
+
+    &--form{
+        width: 100%;
+        background-color: $color-primary-light;
+        margin-top: 40px;
+    }
+    &--log-out{
+        width: 15%;
+        background-color: $color-primary;
+        border-radius: 20px;
+        border: 2px $color-white solid;
+    }
+}
+
+/*intro block */
+.intro{
+    text-align: center;
+
+    &__heading{
+        color:$color-primary;
+        font-size: 50px;
+    }
+    &__sub-heading {
+        font-family: $font-display;
+        font-size: 25px;
+        margin: 20px 0;
+    }
+    &__button{
+        margin: 0 auto;
+    }
+}
+
+.wave-top{
+    vertical-align: top;
+}
+.wave-bottom{
+    vertical-align: top;
+}
+
+.section-form{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    background-color: $color-primary;
+    .form{
+        width: 15%;
+        background-color: $color-white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    &__input{
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    }
+        &__label{
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+}}
+.log-out{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    
+    &__thanks{
+        font-family: $font-display;
+        font-size: 25px;
+        margin: 20px 0;
+        width: 15%;
+        display: flex;
+        justify-content: center;
+    }
+} 
+
+.footer{
+    background-color: $color-primary;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    margin-top: 30vh;
+
+    &__copyright{
+        color: $color-white;
+        display: flex;
+        align-content: flex-start;
+    }
+    &__date{
+        color: $color-white;
+    }
+}
