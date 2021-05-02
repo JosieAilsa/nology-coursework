@@ -56,18 +56,42 @@
     }
 }
 
+.form{
+    width: 15%;
+    background-color: $color-white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+&__input{
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+}
+    &__label{
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+}}
+
+
 .wave-top{
-    vertical-align: top;
+    vertical-align: bottom;
 }
 .wave-bottom{
-    vertical-align: top;
+    vertical-align: bottom;
 }
 
 
 .log-out{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: transparent;
     
