@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Flow Challenges</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <h1> Positive or negative number?</h1>
+        <input type="number" onblur="handleCalculateOddEven (event)"">
+    </div>
+
+    <h1>1, 2 or 3 which is greater? </h1>
+    <input type="text" onblur = "handleCalculateGreatestNumber (event)">
+
+    <h1>How many days untill your next weekend? Write the day of the week to find out:</h1>
+    <input type="text" onblur = "handleWeekdayCountdown (event)">
+
+    <h1>Vegetable prices</h1>
+
+<label for="Vegetables">Choose a veg</label>
+
+<select name="cars" onchange="handleVegetablePrices(event)">
+  <option value="potato">Potato</option>
+  <option value="carrot">Carrot</option>
+  <option value="brocolli">Brocolli</option>
+  <option value="asparagus">Asparagus</option>
+</select>
+
+</body>
+</html>
