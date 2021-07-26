@@ -79,8 +79,6 @@ function handleVegetablePrices (event) {
 
     switch (veg){
         case "potato":
-        vegCost = "£1.29"
-        break; 
         case "carrot":
         vegCost = "£1.29"
         break; 

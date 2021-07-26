@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style> 
+        * {
+            font-family: sans-serif;}
+        
+        .valid {
+            background-color: lightgreen;
+            border: 5px solid green;
+        }
+
+        form {
+            margin: 20px 5px;
+        }
+
+        form * {
+            display: block;
+        }
+    
+    </style>
+</head>
+<body>
+    <!-- Event attribute -->
+
+    <!-- <h1 onmouseover="alert('Mouse over')">This is my heading</h1>
+
+    <button onclick="alert('I was clicked')">Click me </button>
+
+    <form action=""">
+        <input onfocus="alert('I was focused')" type="text" name="" id="">
+    </form> -->
+
+    <h1 id = "heading"> Hello <span>User</span></h1>
+    <button id = "button">Click Me </button>
+    <form action="">
+        <input type="text" class = "text-input"/>
+        <input type="text" class = "text-input"/>
+    </form>
+
+    <form action = """ id = "name-form">
+        <input type="text" id = "name-input">
+        <button> Submit </button>
+    </form>
+
+
+    <ul id = "name-list">
+    </ul>
+    <script>
+        // console.log(document.getElementById("heading"));
+
+        // Getting the HTML element ref 
+        const heading = document.getElementById("heading");
+        const button = document.getElementById("button");
+        const textInputs = document.getElementsByClassName("text-input")
+
+        //What if we wanted to get multiple then we'd use a different method 
+        // const textInputs = document.getElementsByClassName("text-input");
+        
+        // // console.log(heading);
+        // heading.innerHTML = "Javascript <span> did this. </span>"
+        // console.log(button);
+        // button.style.backgroundColor = "green";
+        // button.innerHTML = "Clicked :)";
+
+        //   //interacting with a html collection 
+        // console.log(textInputs[0]);
+        // // Looping through a HTML collection 
+        // for (let i = 0; i <textInputs.length; i++) {
+        //     textInputs[i].value = "A loop did this";      
+        // };
+
+        // Adding event listeners 
+        heading.addEventListener ("mouseover", () => {
+            heading.innerHTML = "javascript  did this!"
+        });
+
+        heading.addEventListener("mouseleave",() => {
+            heading.innerHTML="Hello!"
+        })
+        
+        button.addEventListener("click", () => {
+            button.innerHTML = "Clicked :) ";
+            button.style.backgroundColor = "green";
+        })
+
+
+        textInputs[0].addEventListener("focus", () => {
+            console.log("function fired");
+            textInputs[0].classList.add("valid");
+        })
+
+        textInputs[1].addEventListener("input", (event) => {
+        console.log(event.target.value);
+        })
+
+        const nameForm = document.getElementById("name-form");
+
+        nameForm.addEventListener("submit", (event) => {
+            event.preventDefault();
+            const namesList = document.getElementById("name-list");
+            const inputValue = document.getElementById("name-input").value;
+
+
+            namesList.innerHTML += `<li>${inputValue}</li>`
+        });
+
+        // console.log(textInputs);
+    </script>
+</body>
+</html>

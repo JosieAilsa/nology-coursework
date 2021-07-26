@@ -1,0 +1,192 @@
+
+
+
+Search _nology
+
+
+
+
+_nology
+
+
+
+
+
+
+
+
+
+Charlie Richardson
+:call_me_hand:
+
+
+Charlie Richardson:call_me_hand:  12:58 PM
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet" />
+    <style>
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        font-family: "Poppins";
+      }
+      * {
+        font-family: "Lato";
+        margin: 10px 5px;
+      }
+      .active {
+        background-color: yellow;
+      }
+      .valid {
+        border: 10px solid green;
+      }
+      .invalid {
+        border: 10px solid red;
+      }
+      .error{
+        background-color: crimson;
+        width:10vw;
+        height:7.5vh;
+        text-align: center;
+        display: none;
+      }
+      .error-show {
+        display: block !important;
+      }
+      /* I HAVE ADDED HIDE AND SHOW CLASSES */
+      .hide{
+        display: none;
+      }
+      .show{
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <!-- Welcome/Title -->
+      <section id="welcome">
+        <h1 id="welcome-title">Welcome to Nology Conference!</h1>
+        <p>Amazing talks from amazing people.</p>
+      </section>
+      <!-- Register your interest -->
+      <section id="contact">
+        <h3>Register your interest!</h3>
+        <form>
+          <div class="form-group first-step show">
+            <label class="form-label">Name</label>
+            <input class="form-input" onchange="handleInputChange(event)" />
+          </div>
+          <div class="form-group first-step show">
+            <label class="form-label">Email</label>
+            <input class="form-input" />
+          </div>
+          <div id = "message" class = "error">
+            <p>Whoops! Something isn't right, check your input again. </p>
+          </div>
+          <div class="second-step hide">
+            <label for="feedback" id ="feedback"></label>
+            <select name="feedback" id="feedback-option">
+            </select>
+          </div>
+            <button id = "next"  class="show" onclick="handleNext(event)">Next</button>
+            <button id = "previous" class="hide" onclick="handlePrevious(event)">Previous</button>
+            <button id = "submit" class="hide" onclick= "handleRegister(event)">Send</button>
+          </form>
+      </section>
+      <section id="summary">
+        <h3>Summary</h2>
+        <ul id="summary-list"></ul>
+      </section>
+    </main>
+    <script>
+      const welcomeElement = document.getElementById("welcome-title");
+      welcomeElement.innerHTML = "Welcome to Nology Conference 2021!";
+      const formInputs = document.querySelectorAll(".form-input");
+      const firstSteps = document.querySelectorAll(".first-step");
+      const secondSteps = document.querySelectorAll(".second-step");
+      const submitButton = document.getElementById("submit");
+      const nextButton = document.getElementById("next");
+      const previousButton = document.getElementById("previous");
+      const handleRegister = (event) => {
+        // 3.1 Stop the form from submitting
+        event.preventDefault();
+        // 3.2 Display a success if the form valid
+        const newMsg = document.getElementById("message");
+        for (let i = 0; i < formInputs.length; i ++ ){
+        if (formInputs[i].value) {
+          alert("You have registered");
+          welcomeElement.innerHTML = "Thank you for registering";
+          newMsg.classList.remove("error-show");
+        } else {
+          newMsg.classList.add("error-show");
+        }
+        }
+      };
+      // A FUNCTION TO HANDLE CLICKING THE NEXT BUTTON
+      const handleNext = (event) => {
+        // LOOPING THROUGH AND SWAPPING CLASSES ON FIRST AND SECOND STEPS -> SHOW ONE HIDE THE OTHER
+        event.preventDefault();
+        firstSteps.forEach(firstStep => firstStep.classList.replace("show","hide"));
+        secondSteps.forEach(secondStep => secondStep.classList.replace("hide","show"));
+        // SIMILAR TO THE ABOVE BUT WITH THE BUTTONS
+        nextButton.classList.replace("show", "hide")
+        submitButton.classList.replace("hide", "show")
+        previousButton.classList.replace("hide", "show")
+      }
+      // A FUNCTION TO HANDLE CLICKING THE PREVIOUS BUTTON
+      const handlePrevious = (event) => {
+        event.preventDefault();
+        // LOOPING THROUGH AND SWAPPING CLASSES ON FIRST AND SECOND STEPS -> SHOW ONE HIDE THE OTHER
+        firstSteps.forEach(firstStep => firstStep.classList.replace("hide","show"));
+        secondSteps.forEach(secondStep => secondStep.classList.replace("show","hide"));
+        // SIMILAR TO THE ABOVE BUT WITH THE BUTTONS
+        nextButton.classList.replace("hide", "show")
+        submitButton.classList.replace("show", "hide")
+        previousButton.classList.replace("show", "hide")
+      }
+      const feedbackPoints = ["Google Search", "Facebook" , "Instagram", "Word of mouth"];
+      const feedbackOption = document.getElementById("feedback-option");
+      const feedbackDropdown = feedbackPoints.map((feedbackPoint) => {
+        return `<option>${feedbackPoint}</option>`;
+        });
+      feedbackOption.innerHTML = feedbackDropdown.join();
+      formInputs.forEach((formInput) => {
+        formInput.addEventListener("input", (event) => {
+          let inputValue = event.target.value;
+          if (inputValue != undefined && inputValue.length > 0) {
+            event.target.classList.remove("invalid");
+            event.target.classList.add("valid");
+        } else {
+          event.target.classList.remove("valid");
+          event.target.classList.add("invalid");
+        }
+      })
+    });
+      const summaryPoints = ["Intro", "SCSS", "Disco"];
+      const summaryList = document.getElementById("summary-list");
+      const summaryPointsHTML = summaryPoints.map((summaryPoint) => {
+        return `<li>${summaryPoint}</li>`;
+      });
+      summaryList.innerHTML = summaryPointsHTML.join("");
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
