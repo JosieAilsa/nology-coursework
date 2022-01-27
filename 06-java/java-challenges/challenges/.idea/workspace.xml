@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b899588-f809-4346-98a1-d33877995d87" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/java-challenges.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-testing/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-testing/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-testing/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-testing/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-testing/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-testing/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-testing/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-testing/java-testing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-testing/src/com/company/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java-testing/src/com/company/BankAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring/greeting 2/src/main/java/com/example/greeting/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring/greeting 2/src/main/java/com/example/greeting/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring/greeting 2/src/main/java/com/example/greeting/GreetingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02-web-fundamentals/CSS/css-flexbox/css-flexbox-challenge-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02-web-fundamentals/CSS/css-flexbox/css-flexbox-challenge-1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02-web-fundamentals/CSS/css-flexbox/flexbox-starter-code" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02-web-fundamentals/CSS/css-flexbox/flexbox-starter-code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02-web-fundamentals/CSS/css-position" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02-web-fundamentals/CSS/css-position" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02-web-fundamentals/CSS/css-responsiveness/sandbox/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02-web-fundamentals/CSS/css-responsiveness/sandbox/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02-web-fundamentals/CSS/css-responsiveness/sandbox/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02-web-fundamentals/CSS/css-responsiveness/sandbox/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02-web-fundamentals/CSS/css-responsiveness/sandbox/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02-web-fundamentals/CSS/css-responsiveness/sandbox/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-js-fundamentals/js-challenges" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-js-fundamentals/js-challenges" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="22EMeZjWIIPo4jr9PYaHfysfUVK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="JUnit.MathTest">
+    <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nology.classes_03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nology.classes_03" />
+      <option name="MAIN_CLASS_NAME" value="com.nology.classes_03.EmployeeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nology.classes_03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nology.classes_03" />
+      <option name="MAIN_CLASS_NAME" value="com.nology.classes_03.MathTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathTest.min_ValidInputs_ReturnsSecondNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nology.classes_03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nology.classes_03" />
+      <option name="MAIN_CLASS_NAME" value="com.nology.classes_03.MathTest" />
+      <option name="METHOD_NAME" value="min_ValidInputs_ReturnsSecondNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathTest.setPI_InvalidInputs_DoesNotUpdatePIField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nology.classes_03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nology.classes_03" />
+      <option name="MAIN_CLASS_NAME" value="com.nology.classes_03.MathTest" />
+      <option name="METHOD_NAME" value="setPI_InvalidInputs_DoesNotUpdatePIField" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathTest.setPI_ValidInput_UpdatesPIField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nology.classes_03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nology.classes_03" />
+      <option name="MAIN_CLASS_NAME" value="com.nology.classes_03.MathTest" />
+      <option name="METHOD_NAME" value="setPI_ValidInput_UpdatesPIField" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MathTest" />
+        <item itemvalue="JUnit.MathTest.setPI_InvalidInputs_DoesNotUpdatePIField" />
+        <item itemvalue="JUnit.MathTest.setPI_ValidInput_UpdatesPIField" />
+        <item itemvalue="JUnit.EmployeeTest" />
+        <item itemvalue="JUnit.MathTest.min_ValidInputs_ReturnsSecondNumber" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b899588-f809-4346-98a1-d33877995d87" name="Changes" comment="" />
+      <created>1639398390308</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639398390308</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nology/introduction_01/ChallengeTest.java</url>
+          <line>149</line>
+          <properties class="com.nology.introduction_01.ChallengeTest" method="isEvenWord_InvalidInputEmpty_ReturnsFalse">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nology/arraysloops_04/ChallengeTest.java</url>
+          <line>79</line>
+          <properties class="com.nology.arraysloops_04.ChallengeTest" method="getRange_ValidInput_ReturnsValidRange">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nology/arraysextended_0401/ChallengeTest.java</url>
+          <line>88</line>
+          <properties class="com.nology.arraysextended_0401.ChallengeTest" method="calculateMovesPercentage_FullGame_Returns100Percent">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nology/classes_03/CalculatorTest.java</url>
+          <line>75</line>
+          <properties class="com.nology.classes_03.CalculatorTest" method="calculateAddition_ValidFields_ReturnsAddition">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nology/arraysloops_04/ChallengeTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nology/classes_03/CalculatorTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

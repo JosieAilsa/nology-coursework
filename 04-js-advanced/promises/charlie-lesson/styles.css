@@ -1,0 +1,21 @@
+* {
+    font-family: sans-serif;
+    color: #333;
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px;
+    gap: 25px 50px;
+  }
+  
+  p {
+    background-color: gold;
+    padding: 10px 20px;
+  }
+  
+  img {
+    width: 200px;
+  }

@@ -10,48 +10,95 @@
 <body>
     <!-Nav bar-->
     <nav>
-        <div id = "main-logo">_nology</div> 
-        <div class = "links" >
-            <h2>Link 1 </h2>
-            <h2>Link 2 </h2>
-            <h2>Link 3 </h2>
+        <div class = "nav__logo">_nology</div> 
+        <div class = "nav__links"  >
+            <h3  class = "nav__link">Link 1 </h3>
+            <h3  class = "nav__link">Link 2 </h3>
+            <h3  class = "nav__link">Link 3 </h3>
+            <div  class = "avatar">
+                   <img  class ="avatar__img"src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="">
+                <p>Profile</p>
+            </div>
         </div>
     </nav>
     <main>
     <!-Three boxes down the left side-->
     <!-- Box 1 justify content space between -->
-        <div class = "panels">
-            <article id="panel-1">
-                <div class = "black-box"> #1 </div>
-                <div class = "black-box"> #2 </div>
-                <div class = "black-box"> #3 </div>
-            </article>
-    <!-- Box 2 justify content flex end -->
-            <article id="panel-2">
-                <div class = "black-box"> #1 </div>
-                <div class = "black-box"> #2 </div>
-                <div class = "black-box"> #3 </div>
-            </article>
-        <!-- Box 3 justify content flex start -->
-            <div id="panel-3">
-                <div class = "black-box"> #1 </div>
-                <div class = "black-box"> #2 </div>
-                <div class = "black-box"> #3 </div>
+        <div class = "filter">
+            <img class = "filter__image" src="https://uxwing.com/wp-content/themes/uxwing/download/19-e-commerce-currency-shopping/filter-remove.png" alt="">
+            <div class = "search">
+                <label for="search">Search:</label>
+                <input name ="search" class = "search__input" type="text">
             </div>
-        </div> 
-         <article class="right-hand-panel">
-    <!-Right hand panel with text-->
-                <h3>Right-hand panel</h3>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-        </article>
+            <div class = "select">
+                <label class = "select__label" for="select">Choose an option:</label>
+                <select class = "select__option" name="select" id="select">
+                    <option value="Option 1">Option 1</option>
+                    <option value="Option 2">Option 2</option>
+                    <option value="Option 3">Option 3</option>
+                    <option value="Option 4">Option 4</option>
+                </select>
+            </div>
+        </div>
+        <section class = card-container>
+
+           <div class="card card-one">
+               <h3 class="card__title card-one__title">Title 1</h3>
+                <h4 class = "card__subtitle">Subtitle</h4>
+                <img class = "card__image" src="http://beepeers.com/assets/images/commerces/default-image.jpg" alt="">
+                <p class = "card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit </p>
+           </div>
+
+           <div class="card card-two">
+                <h3 class = "card__title">Title 2</h3>
+                <h4 class = "card__subtitle">Subtitle</h4>
+                <img class = "card__image" src="http://beepeers.com/assets/images/commerces/default-image.jpg" alt="">
+                <p class = "card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+            </div>
+
+            <div class="card card-three">
+                 <h3 class = "card__title">Title 3</h3>
+                 <h4 class = "card__subtitle">Subtitle</h4>
+                 <img class = "card__image" src="http://beepeers.com/assets/images/commerces/default-image.jpg" alt="">
+                 <p class = "card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            
+            <div class="card card-four">
+                 <h3 class = "card__title">Title 4</h3>
+                 <h4 class = "card__subtitle">Subtitle</h4>
+                 <img class = "card__image" src="http://beepeers.com/assets/images/commerces/default-image.jpg" alt="">
+                 <p class = "card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="card card-five">
+                <h3 class = "card__title">Title 5</h3>
+                 <h4 class = "card__subtitle">Subtitle</h4>
+                 <img class = "card__image" src="http://beepeers.com/assets/images/commerces/default-image.jpg" alt="">
+                 <p class = "card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="card card-six">
+                <h3 class = "card__title">Title 6</h3>
+                 <h4 class = "card__subtitle">Subtitle</h4>
+                 <img class = "card__image" src="http://beepeers.com/assets/images/commerces/default-image.jpg" alt="">
+                 <p class = "card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="card card-seven">
+                <h3 class = "card__title">Title 7</h3>
+                 <h4 class = "card__subtitle">Subtitle</h4>
+                 <img class = "card__image" src="http://beepeers.com/assets/images/commerces/default-image.jpg" alt="">
+                 <p class = "card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="card card-seven">
+                <h3 class = "card__title">Title 8</h3>
+                 <h4 class = "card__subtitle">Subtitle</h4>
+                 <img class = "card__image" src="http://beepeers.com/assets/images/commerces/default-image.jpg" alt="">
+                 <p class = "card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+
+        </section>
     </main>
   </body>
 </html>
